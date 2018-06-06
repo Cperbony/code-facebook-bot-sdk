@@ -1,0 +1,23 @@
+{
+    "name": "cperbony/facebook-bot-sdk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Claudinei Perboni",
+            "email": "cperbony@gmail.com"
+        }
+    ],
+
+  "autoload": {
+    "classmap": [
+      "src/"
+    ],
+    "psr-4": {
+      "CodeBot\\": "src"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6"
+  }
+}
