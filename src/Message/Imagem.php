@@ -8,7 +8,7 @@
 
 namespace CodeBot\Message;
 
-class Text implements Message
+class Imagem implements Message
 {
     /**
      * @var string
@@ -27,8 +27,12 @@ class Text implements Message
                 'id' => $this->recipientId
             ],
             'message' => [
-                'text' => $messageText,
-                'metadata' => 'DEVELOPER_DEFINED_METADATA'
+                'attachment' => [
+                    'type' => 'imagem',
+                    'payload' => [
+                        'url' => $messageText
+                    ]
+                ]
             ]
         ];
     }

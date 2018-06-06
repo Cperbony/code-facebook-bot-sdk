@@ -1,5 +1,5 @@
 {
-    "name": "cperbony/facebook-bot-sdk",
+    "name": "cperbony/code-facebook-bot-sdk",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -8,16 +8,13 @@
             "email": "cperbony@gmail.com"
         }
     ],
-
+  "require": {
+    "php": ">=7.1",
+    "phpunit/phpunit": "^6.2"
+  },
   "autoload": {
-    "classmap": [
-      "src/"
-    ],
     "psr-4": {
       "CodeBot\\": "src"
     }
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^6"
   }
 }
