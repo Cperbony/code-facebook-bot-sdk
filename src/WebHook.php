@@ -8,7 +8,6 @@
 
 namespace CodeBot;
 
-
 class WebHook
 {
     public function check(string $token)
